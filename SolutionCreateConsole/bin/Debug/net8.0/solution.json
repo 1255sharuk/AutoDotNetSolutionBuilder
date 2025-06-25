@@ -1,0 +1,39 @@
+{
+  "drive": "C:",
+  "baseFolder": "MySolutions",
+  "solutionName": "Sharuk",
+  "projects": [
+    {
+      "type": "mvc",
+      "framework": "net6.0",
+      "packages": [
+        {
+          "name": "AspNetCoreRateLimit",
+          "version": "5.0.0"
+        }
+      ]
+    },
+    {
+      "type": "classlib",
+      "framework": "net6.0",
+      "packages": [
+        {
+          "name": "AspNetCoreRateLimit",
+          "version": "5.0.0"
+        },
+        {
+          "name": "MicroSoft.AspNetCore.Http",
+          "version": "2.2.2"
+        },
+        {
+          "name": "Microsoft.EntityFrameworkCore",
+          "version": "6.0.0"
+        },
+        {
+          "name": "Microsoft.EntityFrameworkCore.SqlServer",
+          "version": "6.0.0"
+        }
+      ]
+    }
+  ]
+}
