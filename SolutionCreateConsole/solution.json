@@ -1,7 +1,7 @@
 {
-  "drive": "C:",
+  "drive": "D:",
   "baseFolder": "MySolutions",
-  "solutionName": "Sharuk",
+  "solutionName": "EntryTesting",
   "projects": [
     {
       "type": "mvc",

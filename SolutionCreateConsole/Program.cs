@@ -211,7 +211,7 @@ class Program
 
                 string ns = project.name;
 
-                WriteFile(Path.Combine(modelsFolder, "GetUserLoginData.cs"), $@"
+                WriteFile(Path.Combine(modelsFolder, "Home.cs"), $@"
 namespace {ns}.Models
 {{
  public class Home
@@ -259,11 +259,11 @@ using {ns}.Models;
 
 namespace {ns}.DAL
 {{
-    public class Employee_DAL
+    public class Home_DAL
     {{
         private readonly DBConnection _context;
 
-        public Employee_DAL(DBConnection context)
+        public Home_DAL(DBConnection context)
         {{
             _context = context;
         }}
